@@ -19,5 +19,5 @@ python scripts/train.py --use_multiview --use_normal --use_brnet --use_dgcnn --u
 
 In order to evaluate the model:
 ```shell
-python scripts/train.py --folder <folder_name> --reference --no_nms --force --repeat 5 --use_multiview --use_normal --use_brnet --use_dgcnn --use_self_attn --use_cross_attn
+python scripts/eval.py --folder <folder_name> --reference --no_nms --force --repeat 5 --use_multiview --use_normal --use_brnet --use_dgcnn --use_self_attn --use_cross_attn
 ```
